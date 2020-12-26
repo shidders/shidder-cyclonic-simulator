@@ -1,4 +1,4 @@
-const TITLE = "Cyclone Simulator";
+const TITLE = "Super Cyclonic Simulator";
 const VERSION_NUMBER = "0.3.5";
 
 const SAVE_FORMAT = 6;  // Format #6 in use starting in v0.2
@@ -7,15 +7,15 @@ const ENVDATA_COMPATIBLE_FORMAT = 0;
 
 const WIDTH = 960; // 16:9 aspect ratio
 const HEIGHT = 540;
-const DIAMETER = 20;    // Storm icon diameter
+const DIAMETER = 25;    // Storm icon diameter
 const PERLIN_ZOOM = 100;    // Resolution for perlin noise
 const TICK_DURATION = 3600000;  // How long in sim time does a tick last in milliseconds (1 hour)
-const ADVISORY_TICKS = 6;    // Number of ticks per advisory
-const YEAR_LENGTH = 365.2425*24;        // The length of a year in ticks; used for seasonal activity
+const ADVISORY_TICKS = 3;    // Number of ticks per advisory
+const YEAR_LENGTH = 365.2425*1000000;        // The length of a year in ticks; used for seasonal activity
 const NHEM_DEFAULT_YEAR = moment.utc().year();
 const SHEM_DEFAULT_YEAR = moment.utc().month() < 6 ? NHEM_DEFAULT_YEAR : NHEM_DEFAULT_YEAR+1;
 const DEPRESSION_LETTER = "H";
-const WINDSPEED_ROUNDING = 5;
+const WINDSPEED_ROUNDING = 1;
 const MAP_DEFINITION = 2;   // normal scaler for the land map
 const MAP_TYPES = [     // Land generation controls for different map types
     {   // "Two Continents" map type
