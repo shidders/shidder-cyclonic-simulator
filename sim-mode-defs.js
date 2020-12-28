@@ -1,6 +1,6 @@
 // ---- Simulation Modes ---- //
 
-const SIMULATION_MODES = ['Normal','Hyper','Wild','Crazy','Experimental']; // Labels for sim mode selector UI
+const SIMULATION_MODES = ['Normal','Hyper','Broken','Crazy','Experimental']; // Labels for sim mode selector UI
 const SIM_MODE_NORMAL = 0;
 const SIM_MODE_HYPER = 1;
 const SIM_MODE_WILD = 2;
@@ -703,12 +703,11 @@ ENV_DEFS[SIM_MODE_HYPER].SST = {
     }
 };
 ENV_DEFS[SIM_MODE_WILD].SST = {
-    mapFunc: (u,x,y,z)=>{
-        if(y<0) return 0;
-        let anom = u.field('SSTAnomaly');
-        let s = u.yearfrac(z);
-        let t = u.piecewise(s,[[0,22],[2,25.5],[4,25],[5,26.5],[6,27],[6.25,30],[6.75,31],[7,28],[9,27],[10,26],[11,23]]);
-        return t+anom;
+    modifiers: {
+        offSeasonPolarTemp: 5000,
+        peakSeasonPolarTemp: 10000,
+        offSeasonTropicsTemp: 500000,
+        peakSeasonTropicsTemp: 1000000
     }
 };
 ENV_DEFS[SIM_MODE_MEGABLOBS].SST = {
