@@ -1,6 +1,6 @@
 // ---- Simulation Modes ---- //
 
-const SIMULATION_MODES = ['Normal','Hyper','Broken','Crazy','Experimental']; // Labels for sim mode selector UI
+const SIMULATION_MODES = ['Normal','( ͡° ͜ʖ ͡°)','Broken','Hyper','Experimental']; // Labels for sim mode selector UI
 const SIM_MODE_NORMAL = 0;
 const SIM_MODE_HYPER = 1;
 const SIM_MODE_WILD = 2;
@@ -696,10 +696,10 @@ ENV_DEFS.defaults.SST = {
 ENV_DEFS[SIM_MODE_NORMAL].SST = {};
 ENV_DEFS[SIM_MODE_HYPER].SST = {
     modifiers: {
-        offSeasonPolarTemp: 5,
-        peakSeasonPolarTemp: 20,
-        offSeasonTropicsTemp: 31,
-        peakSeasonTropicsTemp: 35
+        offSeasonPolarTemp: 440,
+        peakSeasonPolarTemp: 520,
+        offSeasonTropicsTemp: 640,
+        peakSeasonTropicsTemp: 720
     }
 };
 ENV_DEFS[SIM_MODE_WILD].SST = {
@@ -712,10 +712,10 @@ ENV_DEFS[SIM_MODE_WILD].SST = {
 };
 ENV_DEFS[SIM_MODE_MEGABLOBS].SST = {
     modifiers: {
-        offSeasonPolarTemp: 550,
-        peakSeasonPolarTemp: 1070,
-        offSeasonTropicsTemp: 2510,
-        peakSeasonTropicsTemp: 3890
+        offSeasonPolarTemp: 5,
+        peakSeasonPolarTemp: 20,
+        offSeasonTropicsTemp: 31,
+        peakSeasonTropicsTemp: 35
     }
 };
 ENV_DEFS[SIM_MODE_EXPERIMENTAL].SST = {
