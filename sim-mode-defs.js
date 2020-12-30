@@ -706,8 +706,8 @@ ENV_DEFS[SIM_MODE_WILD].SST = {
     modifiers: {
         offSeasonPolarTemp: 5000,
         peakSeasonPolarTemp: 10000,
-        offSeasonTropicsTemp: 500000,
-        peakSeasonTropicsTemp: 1000000
+        offSeasonTropicsTemp: 25000,
+        peakSeasonTropicsTemp: 40000
     }
 };
 ENV_DEFS[SIM_MODE_MEGABLOBS].SST = {
