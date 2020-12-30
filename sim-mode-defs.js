@@ -704,9 +704,9 @@ ENV_DEFS[SIM_MODE_HYPER].SST = {
 };
 ENV_DEFS[SIM_MODE_WILD].SST = {
     modifiers: {
-        offSeasonPolarTemp: 999867,
-        peakSeasonPolarTemp: 999898,
-        offSeasonTropicsTemp: 999924,
+        offSeasonPolarTemp: 100000,
+        peakSeasonPolarTemp: 100000,
+        offSeasonTropicsTemp: 100000,
         peakSeasonTropicsTemp: 100000
     }
 };
