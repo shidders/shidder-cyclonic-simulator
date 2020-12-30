@@ -1,6 +1,6 @@
 // ---- Simulation Modes ---- //
 
-const SIMULATION_MODES = ['Normal','( ͡° ͜ʖ ͡°)','Broken','Hyper-Blobs','Experimental']; // Labels for sim mode selector UI
+const SIMULATION_MODES = ['Regular','( ͡° ͜ʖ ͡°)','Broken','Hyper-Blobs','Backwards']; // Labels for sim mode selector UI
 const SIM_MODE_NORMAL = 0;
 const SIM_MODE_HYPER = 1;
 const SIM_MODE_WILD = 2;
