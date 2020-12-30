@@ -723,8 +723,8 @@ ENV_DEFS[SIM_MODE_EXPERIMENTAL].SST = {
     modifiers: {
         offSeasonPolarTemp: 15,
         peakSeasonPolarTemp: -50,
-        offSeasonTropicsTemp: -50,
-        peakSeasonTropicsTemp: 15
+        offSeasonTropicsTemp: 50,
+        peakSeasonTropicsTemp: -15
     }
 };
 
