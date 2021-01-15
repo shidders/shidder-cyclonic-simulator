@@ -184,9 +184,9 @@ SPAWN_RULES[SIM_MODE_NORMAL].doSpawn = SPAWN_RULES.defaults.doSpawn;
 // -- Hyper Mode -- //
 
 SPAWN_RULES[SIM_MODE_HYPER].doSpawn = function(b){
-    if(random()<(10*sq((seasonalSine(b.tick)+1)/2)+0.002)) b.spawnArchetype('tw');
+    if(random()<(0.5*sq((seasonalSine(b.tick)+1)/2)+0.002)) b.spawnArchetype('tw');
 
-    if(random()<2.5*seasonalSine(b.tick)) b.spawnArchetype('ex');
+    if(random()<0.15*seasonalSine(b.tick)) b.spawnArchetype('ex');
 };
 
 // -- Wild Mode -- //
