@@ -516,6 +516,14 @@ Scale.typhoonCommittee = new Scale({
             stat: 'Typhoons',
             cName: 'Typhoon'
         }
+        {
+            threshold: 130,
+            color: ['rgb(255,89,89)','#ff5959'],
+            symbol: 'STY',
+            stormNom: 'Super Typhoon',
+            stat: 'Super Typhoons',
+            cName: 'Super'
+        }
     ]
 });
 
