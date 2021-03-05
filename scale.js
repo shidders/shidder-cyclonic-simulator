@@ -515,7 +515,7 @@ Scale.typhoonCommittee = new Scale({
             stormNom: 'Typhoon',
             stat: 'Typhoons',
             cName: 'Typhoon'
-        }
+        },
         {
             threshold: 130,
             color: ['rgb(255,89,89)','#ff5959'],
