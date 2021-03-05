@@ -461,7 +461,7 @@ Scale.australian = new Scale({
             cName: 'Category 4'
         },
         {
-            threshold: 108,
+            threshold: 110,
             color: ['rgb(250,140,250)','#ff6060'],
             symbol: '5',
             stat: 'Category 5s',
