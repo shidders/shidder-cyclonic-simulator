@@ -702,7 +702,7 @@ Scale.medicane = new Scale({
     namingThreshold: 2,
     classifications: [
         {
-            threshold: 24,
+            threshold: 38,
             color: ['rgb(54,141,255)','#368dff'],
             subtropicalColor: ['rgb(112,81,237)','#7051ed'],
             symbol: 'MD',
@@ -713,7 +713,7 @@ Scale.medicane = new Scale({
             cName: 'Medipression'
         },
         {
-            threshold: 37,
+            threshold: 60,
             color: ['rgb(79,255,202)','#4fffca'],
             subtropicalColor: ['rgb(138,255,210)','#8affd2'],
             symbol: 'MS',
@@ -723,7 +723,7 @@ Scale.medicane = new Scale({
             cName: 'Medistorm',
         },
         {
-            threshold: 61,
+            threshold: 98,
             color: ['rgb(175,255,84)','#afff54'],
             symbol: 'MC',
             stormNom: 'Medicane',
@@ -731,7 +731,7 @@ Scale.medicane = new Scale({
             cName: 'Medicane',
         },
         {
-            threshold: 98,
+            threshold: 158,
             color: ['rgb(255,190,87)','#ffbe57'],
             symbol: 'MMC',
             stormNom: 'Major Medicane',
