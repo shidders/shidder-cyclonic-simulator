@@ -804,7 +804,6 @@ Scale.medicane = new Scale({
         }
     ]
 });
-
 Scale.presetScales = [
     Scale.saffirSimpson,
     Scale.extendedSaffirSimpson,
