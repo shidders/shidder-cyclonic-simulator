@@ -695,9 +695,11 @@ Scale.southwestIndianOcean = new Scale({
     ]
 });
 Scale.medicane = new Scale({
+    measure: SCALE_MEASURE_ONE_MIN_KNOTS,
     displayName: 'Medicane',
     colorSchemeDisplayNames: 'Classic',
     flavorDisplayNames: 'Cyclone',
+    namingThreshold: 2,
     classifications: [
         {
             threshold: 24,
