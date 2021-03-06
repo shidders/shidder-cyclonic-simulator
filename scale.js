@@ -694,7 +694,32 @@ Scale.southwestIndianOcean = new Scale({
         }
     ]
 });
-
+Scale.medicane = new Scale({
+    displayName: 'Medicane',
+    colorSchemeDisplayNames: ['Classic','Wiki'],
+    flavorDisplayNames: ['Hurricane','Typhoon','Cyclone'],
+    classifications: [
+        {
+        threshold: 24,
+        color: ['rgb(54,141,255)','#368dff'],
+        subtropicalColor: ['rgb(112,81,237)','#7051ed'],
+        symbol: 'MD',
+        arms: 0,
+        stormNom: 'Tropical Medipression',
+        subtropicalStormNom: 'Subtropical Medipression',
+        stat: 'Medipressions',
+        cName: 'Medipression'
+        },
+        {
+        threshold: 37,
+        color: ['rgb(54,141,255)','#368dff'],
+        subtropicalColor: ['rgb(112,81,237)','#7051ed'],
+        symbol: 'MD',
+        stormNom: 'Tropical Medistorm',
+        subtropicalStormNom: 'Subtropical Medistorm',
+        stat: 'Medistorms',
+        cName: 'Medistorm',
+        },
 Scale.presetScales = [
     Scale.saffirSimpson,
     Scale.extendedSaffirSimpson,
