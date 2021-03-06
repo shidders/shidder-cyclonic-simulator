@@ -700,25 +700,41 @@ Scale.medicane = new Scale({
     flavorDisplayNames: ['Hurricane','Typhoon','Cyclone'],
     classifications: [
         {
-        threshold: 24,
-        color: ['rgb(54,141,255)','#368dff'],
-        subtropicalColor: ['rgb(112,81,237)','#7051ed'],
-        symbol: 'MD',
-        arms: 0,
-        stormNom: 'Tropical Medipression',
-        subtropicalStormNom: 'Subtropical Medipression',
-        stat: 'Medipressions',
-        cName: 'Medipression'
+            threshold: 24,
+            color: ['rgb(54,141,255)','#368dff'],
+            subtropicalColor: ['rgb(112,81,237)','#7051ed'],
+            symbol: 'MD',
+            arms: 0,
+            stormNom: 'Tropical Medipression',
+            subtropicalStormNom: 'Subtropical Medipression',
+            stat: 'Medipressions',
+            cName: 'Medipression'
         },
         {
-        threshold: 37,
-        color: ['rgb(54,141,255)','#368dff'],
-        subtropicalColor: ['rgb(112,81,237)','#7051ed'],
-        symbol: 'MD',
-        stormNom: 'Tropical Medistorm',
-        subtropicalStormNom: 'Subtropical Medistorm',
-        stat: 'Medistorms',
-        cName: 'Medistorm',
+            threshold: 37,
+            color: ['rgb(79,255,202)','#4fffca'],
+            subtropicalColor: ['rgb(138,255,210)','#8affd2'],
+            symbol: 'MS',
+            stormNom: 'Tropical Medistorm',
+            subtropicalStormNom: 'Subtropical Medistorm',
+            stat: 'Medistorms',
+            cName: 'Medistorm',
+        },
+        {
+            threshold: 61,
+            color: ['rgb(175,255,84)','#afff54'],
+            symbol: 'MC',
+            stormNom: 'Medicane',
+            stat: 'Medicanes',
+            cName: 'Medicane',
+        },
+        {
+            threshold: 98,
+            color: ['rgb(255,190,87)','#ffbe57'],
+            symbol: 'MMC',
+            stormNom: 'Major Medicane',
+            stat: 'Major Medicanes',
+            cName: 'Major Medicane',
         },
 Scale.presetScales = [
     Scale.saffirSimpson,
@@ -726,5 +742,6 @@ Scale.presetScales = [
     Scale.australian,
     Scale.typhoonCommittee,
     Scale.IMD,
-    Scale.southwestIndianOcean
+    Scale.southwestIndianOcean,
+    Scale.medicane
 ];
