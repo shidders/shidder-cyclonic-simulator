@@ -810,8 +810,6 @@ Scale.presetScales = [
     Scale.australian,
     Scale.typhoonCommittee,
     Scale.IMD,
-    Scale.hexacane,
     Scale.southwestIndianOcean,
     Scale.medicane
-    
-];
+    ];
