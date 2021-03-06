@@ -737,7 +737,9 @@ Scale.medicane = new Scale({
             stormNom: 'Major Medicane',
             stat: 'Major Medicanes',
             cName: 'Major Medicane',
-        },
+        }
+    ]
+});
 Scale.presetScales = [
     Scale.saffirSimpson,
     Scale.extendedSaffirSimpson,
