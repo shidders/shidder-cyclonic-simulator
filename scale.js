@@ -299,77 +299,6 @@ Scale.saffirSimpson = new Scale({
         }
     ]
 });
-Scale.hexacane = new Scale({
-    displayName: 'Saffir-Simpson',
-    colorSchemeDisplayNames: ['Classic','Wiki'],
-    flavorDisplayNames: ['Hurricane','Typhoon','Cyclone'],
-    classifications: [
-        {
-            threshold: 0,
-            color: ['rgb(20,20,230)','#5ebaff'],
-            subtropicalColor: ['rgb(60,60,220)','#5ebaff'],
-            symbol: 'D',
-            arms: 6,
-            stormNom: 'Tropical Depression',
-            subtropicalStormNom: 'Subtropical Depression',
-            stat: 'Depressions',
-            cName: 'Depression'
-        },
-        {
-            threshold: 34,
-            color: ['rgb(20,230,20)','#00faf4'],
-            subtropicalColor: ['rgb(60,220,60)','#00faf4'],
-            symbol: 'S',
-            stormNom: 'Tropical Storm',
-            subtropicalStormNom: 'Subtropical Storm',
-            stat: 'Named Storms',
-            cName: 'Storm'
-        },
-        {
-            threshold: 64,
-            color: ['rgb(230,230,20)','#ffffcc'],
-            symbol: '1',
-            stormNom: ['Hurricane','Typhoon','Cyclone'],
-            stat: ['Hurricanes','Typhoons','Cyclones'],
-            cName: 'Category 1'
-        },
-        {
-            threshold: 83,
-            color: ['rgb(240,170,20)','#ffe775'],
-            symbol: '2',
-            cName: 'Category 2'
-        },
-        {
-            threshold: 96,
-            color: ['rgb(240,20,20)','#ffc140'],
-            symbol: '3',
-            stormNom: ['Major Hurricane','Typhoon','Cyclone'],
-            stat: ['Major Hurricanes','Category 3+','Category 3+'],
-            cName: 'Category 3'
-        },
-        {
-            threshold: 113,
-            color: ['rgb(250,40,250)','#ff8f20'],
-            symbol: '4',
-            cName: 'Category 4'
-        },
-        {
-            threshold: 130,
-            color: ['rgb(250,40,250)','#ff8f20'],
-            symbol: '4',
-            stormNom: ['Major Hurricane','Super Typhoon','Cyclone'],
-            stat: [undefined,'Super Typhoons'],
-            cName: 'Category 4 STY'
-        },
-        {
-            threshold: 137,
-            color: ['rgb(250,140,250)','#ff6060'],
-            symbol: '5',
-            stat: 'Category 5s',
-            cName: 'Category 5'
-        }
-    ]
-});
 Scale.extendedSaffirSimpson = new Scale({
     displayName: 'Extended Saffir-Simpson',
     colorSchemeDisplayNames: ['Classic','Wiki'],
@@ -872,6 +801,77 @@ Scale.medicane = new Scale({
             stormNom: 'Major Medicane',
             stat: 'Major Medicanes',
             cName: 'Major Medicane',
+        }
+    ]
+});
+Scale.hexacane = new Scale({
+    displayName: 'Hexacane',
+    colorSchemeDisplayNames: ['Classic','Wiki'],
+    flavorDisplayNames: ['Hurricane','Typhoon','Cyclone'],
+    classifications: [
+        {
+            threshold: 0,
+            color: ['rgb(20,20,230)','#5ebaff'],
+            subtropicalColor: ['rgb(60,60,220)','#5ebaff'],
+            symbol: 'D',
+            arms: 6,
+            stormNom: 'Tropical Depression',
+            subtropicalStormNom: 'Subtropical Depression',
+            stat: 'Depressions',
+            cName: 'Depression'
+        },
+        {
+            threshold: 34,
+            color: ['rgb(20,230,20)','#00faf4'],
+            subtropicalColor: ['rgb(60,220,60)','#00faf4'],
+            symbol: 'S',
+            stormNom: 'Tropical Storm',
+            subtropicalStormNom: 'Subtropical Storm',
+            stat: 'Named Storms',
+            cName: 'Storm'
+        },
+        {
+            threshold: 64,
+            color: ['rgb(230,230,20)','#ffffcc'],
+            symbol: '1',
+            stormNom: ['Hurricane','Typhoon','Cyclone'],
+            stat: ['Hurricanes','Typhoons','Cyclones'],
+            cName: 'Category 1'
+        },
+        {
+            threshold: 83,
+            color: ['rgb(240,170,20)','#ffe775'],
+            symbol: '2',
+            cName: 'Category 2'
+        },
+        {
+            threshold: 96,
+            color: ['rgb(240,20,20)','#ffc140'],
+            symbol: '3',
+            stormNom: ['Major Hurricane','Typhoon','Cyclone'],
+            stat: ['Major Hurricanes','Category 3+','Category 3+'],
+            cName: 'Category 3'
+        },
+        {
+            threshold: 113,
+            color: ['rgb(250,40,250)','#ff8f20'],
+            symbol: '4',
+            cName: 'Category 4'
+        },
+        {
+            threshold: 130,
+            color: ['rgb(250,40,250)','#ff8f20'],
+            symbol: '4',
+            stormNom: ['Major Hurricane','Super Typhoon','Cyclone'],
+            stat: [undefined,'Super Typhoons'],
+            cName: 'Category 4 STY'
+        },
+        {
+            threshold: 137,
+            color: ['rgb(250,140,250)','#ff6060'],
+            symbol: '5',
+            stat: 'Category 5s',
+            cName: 'Category 5'
         }
     ]
 });
