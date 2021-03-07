@@ -812,4 +812,4 @@ Scale.presetScales = [
     Scale.IMD,
     Scale.southwestIndianOcean,
     Scale.medicane
-    ];
+];
