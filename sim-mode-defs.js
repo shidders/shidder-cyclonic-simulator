@@ -167,9 +167,9 @@ SPAWN_RULES.defaults.archetypes = {
     'b': {
         inherit: 'tc',
         pressure: 370,
-        windSpeed: 660
+        windSpeed: 657
     },
-    
+        
     'x': {
         inherit: 'tc',
         pressure: 0,
