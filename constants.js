@@ -117,10 +117,6 @@ const MAP_TYPES = [     // Land generation controls for different map types
     {   // "Mediterranean" map type
         form: 'pixelmap',
         path: 'resources/Medi.png'
-    },
-    {   // "Ocean" map type
-        form: 'pixelmap',
-        path: 'resources/Ocean.png'
     }
 ];
 const EXTROP = 0;
