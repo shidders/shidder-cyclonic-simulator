@@ -1,5 +1,5 @@
 const TITLE = "Super Cyclonic Simulator";
-const VERSION_NUMBER = "0.3.5";
+const VERSION_NUMBER = "0.4";
 
 const SAVE_FORMAT = 6;  // Format #6 in use starting in v0.2
 const EARLIEST_COMPATIBLE_FORMAT = 0;
@@ -201,6 +201,7 @@ const HELP_TEXT = "Keyboard Controls:\n" +
     "\t\t\t\t[number key 1-9] - Category [1-9]* Tropical Cyclone\n" +
     '\t\t\t\t0 - Category 10* Tropical Cyclone\n' +
     '\t\t\t\tY - Hyperclone*\n' +
+    '\t\t\t\tX - Universal Vortex*\n' +
     '\t\t\t\t\t*must use Extended Saffir-Simpson scale to see C6+ storms';
 
 const COLORS = {};      // For storing all colors used in the graphics
