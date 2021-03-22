@@ -54,6 +54,15 @@ const MAP_TYPES = [     // Land generation controls for different map types
             -0.28
         ]
     },
+    {   // "Ocean" map type
+        form: "linear",
+        landBiasFactors: [
+            1/2,
+            -1,
+            -1,
+            -1
+        ]
+    },
     {   // "Central Continent" map type
         form: "radial",
         landBiasFactors: [
