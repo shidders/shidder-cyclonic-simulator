@@ -78,7 +78,7 @@ const MAP_TYPES = [     // Land generation controls for different map types
             0.3
         ]
     },
-        {   // "Ocean" map type
+    {   // "Ocean" map type
         form: "linear",
         landBiasFactors: [
             1/2,
