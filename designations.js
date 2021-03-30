@@ -421,8 +421,8 @@ DesignationSystem.atlantic = new DesignationSystem({
         ['Alex','Bonnie','Colin','Danielle','Earl','Fiona','Gaston','Hermine','Ian','Julia','Karl','Lisa','Martin','Nicole','Owen','Paula','Richard','Shary','Tobias','Virginie','Walter'],
         ['Arlene','Bret','Cindy','Don','Emily','Franklin','Gert','Harold','Idalia','Jose','Katia','Lee','Margot','Nigel','Ophelia','Philippe','Rina','Sean','Tammy','Vince','Whitney'],
         ['Alberto','Beryl','Chris','Debby','Ernesto','Francine','Gordon','Helene','Isaac','Joyce','Kirk','Leslie','Milton','Nadine','Oscar','Patty','Rafael','Sara','Tony','Valerie','William'],
-        ['Andrea','Barry','Chantal','Dorian','Erin','Fernand','Gabrielle','Humberto','Imelda','Jerry','Karen','Lorenzo','Melissa','Nestor','Olga','Pablo','Rebekah','Sebastien','Tanya','Van','Wendy'],
-        ['Arthur','Bertha','Cristobal','Dolly','Edouard','Fay','Gonzalo','Hanna','Isaias','Josephine','Kyle','Laura','Marco','Nana','Omar','Paulette','Rene','Sally','Teddy','Vicky','Wilfred']
+        ['Andrea','Barry','Chantal','Dexter','Erin','Fernand','Gabrielle','Humberto','Imelda','Jerry','Karen','Lorenzo','Melissa','Nestor','Olga','Pablo','Rebekah','Sebastien','Tanya','Van','Wendy'],
+        ['Arthur','Bertha','Cristobal','Dolly','Edouard','Fay','Gonzalo','Hanna','Isaias','Josephine','Kyle','Leah','Marco','Nana','Omar','Paulette','Rene','Sally','Teddy','Vicky','Wilfred']
     ],
     auxLists: [
         ['Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Kappa','Lambda','Mu','Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega'],
@@ -583,6 +583,14 @@ DesignationSystem.southAtlantic = new DesignationSystem({
     ]
 });
 
+DesignationSystem.mediterranean = new DesignationSystem({
+    displayName: 'Mediterranean',
+    suffix: 'M',
+    mainLists: [
+        ['Athena','Benjamin','Cassilda','David','Elaina','Falchion','Gloria','Helios','Isabella','Jon','Karissa','Luigi','Marquesa','Nikolai','Odessa','Jon','Karissa','Luigi','Marquesa','Nikolai','Odessa','Penelope','Quendrim','Rhea','Scott','Trudy','Vito','Xylona','Yosef','Zenia']
+    ]
+});
+
 DesignationSystem.atlantic1979 = new DesignationSystem({
     displayName: 'Atlantic (1979-1984)',
     suffix: 'L',
@@ -625,6 +633,7 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.southPacific,
     DesignationSystem.southWestIndianOcean,
     DesignationSystem.southAtlantic,
+    DesignationSystem.mediterranean,
     DesignationSystem.australianRegionJakarta,
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
