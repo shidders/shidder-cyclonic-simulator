@@ -622,11 +622,15 @@ DesignationSystem.periodicTable = new DesignationSystem({
 DesignationSystem.auxilary = new DesignationSystem({
 <<<<<<< HEAD
     displayName: 'NHC Auxiliary'
+<<<<<<< HEAD
     suffix: 'X',
 =======
     displayName: 'Auxiliary 1'
     suffix: '',
 >>>>>>> parent of 11b3725... Update designations.js
+=======
+    suffix: '',
+>>>>>>> parent of 5599984... Update designations.js
     mainLists: [
         ["Adria","Braylen","aridad","Deshawn","Emery","Foster","Gemma","Heath","Isla","Jacobus","Kenzie","Lucio","Makayla","Nolan","Orlanda","Pax","Ronin","Sophie","Tayshaun","Viviana","Will"]
     ]
