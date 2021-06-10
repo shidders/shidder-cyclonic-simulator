@@ -620,17 +620,33 @@ DesignationSystem.periodicTable = new DesignationSystem({
 
 <<<<<<< HEAD
 DesignationSystem.auxilary = new DesignationSystem({
+<<<<<<< HEAD
     displayName: 'NHC Auxiliary'
     suffix: 'X',
+=======
+    displayName: 'Auxiliary 1'
+    suffix: '',
+>>>>>>> parent of 11b3725... Update designations.js
     mainLists: [
-        ["Adria","Aidan","Braylen","Bruna","Caridad","Carmelo","Deshawn","Daniella","Emery","Esteban","Foster","Flor","Gemma","Gerardo","Heath","Hedda","Isla","Izzy","Jacobus","Jacinta","Kenzie","Kenito","Lucio","Luna","Makayla","Marina","Nolan","Nancy","Orlanda","Ovidio","Pax","Pia","Ronin","Rey","Sophie","Skylar","Tayshaun","Teo","Viviana","Violeta","Will""Wilfredo","Xinia","Yariel","Zoe"]
+        ["Adria","Braylen","aridad","Deshawn","Emery","Foster","Gemma","Heath","Isla","Jacobus","Kenzie","Lucio","Makayla","Nolan","Orlanda","Pax","Ronin","Sophie","Tayshaun","Viviana","Will"]
     ]
 });
+<<<<<<< HEAD
 =======
 DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
 DesignationSystem.periodicTableAnnual.naming.annual = true;
 DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
 >>>>>>> parent of c84de48... Update designations.js
+=======
+
+DesignationSystem.auxilary2 = new DesignationSystem({
+    displayName: 'Auxiliary 2'
+    suffix: '',
+    mainLists: [
+        ["Aidan", "Bruna", "Carmelo", "Daniella", "Esteban", "Flor", "Gerardo", "Hedda", "Izzy", "Jacinta", "Kenito", "Luna", "Marina", "Nancy", "Ovidio", "Pia", "Rey", "Skylar", "Teo", "Violeta", "Wilfredo", "Xinia", "Yariel", "Zoe"]
+    ]
+});
+>>>>>>> parent of 11b3725... Update designations.js
 
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
@@ -647,10 +663,15 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.australianRegionJakarta,
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
+<<<<<<< HEAD
     DesignationSystem.periodicTable,
 <<<<<<< HEAD
     DesignationSystem.auxiliary
 =======
     DesignationSystem.periodicTableAnnual
 >>>>>>> parent of c84de48... Update designations.js
+=======
+    DesignationSystem.auxilary,
+    DesignationSystem.auxilary2
+>>>>>>> parent of 11b3725... Update designations.js
 ];
