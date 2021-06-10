@@ -619,20 +619,13 @@ DesignationSystem.periodicTable = new DesignationSystem({
 });
 
 DesignationSystem.auxilary = new DesignationSystem({
-    displayName: 'Auxiliary 1'
+    displayName: 'NHC Auxiliary'
     suffix: '',
     mainLists: [
-        ["Adria","Braylen","aridad","Deshawn","Emery","Foster","Gemma","Heath","Isla","Jacobus","Kenzie","Lucio","Makayla","Nolan","Orlanda","Pax","Ronin","Sophie","Tayshaun","Viviana","Will"]
+        ["Adria","Aidan","Braylen","Bruna","Caridad","Carmelo","Deshawn","Daniella","Emery","Esteban","Foster","Flor","Gemma","Gerardo","Heath","Hedda","Isla","Izzy","Jacobus","Jacinta","Kenzie","Kenito","Lucio","Luna","Makayla","Marina","Nolan","Nancy","Orlanda","Ovidio","Pax","Pia","Ronin","Rey","Sophie","Skylar","Tayshaun","Teo","Viviana","Violeta","Will""Wilfredo","Xinia","Yariel","Zoe"]
     ]
 });
 
-DesignationSystem.auxilary2 = new DesignationSystem({
-    displayName: 'Auxiliary 2'
-    suffix: '',
-    mainLists: [
-        ["Aidan", "Bruna", "Carmelo", "Daniella", "Esteban", "Flor", "Gerardo", "Hedda", "Izzy", "Jacinta", "Kenito", "Luna", "Marina", "Nancy", "Ovidio", "Pia", "Rey", "Skylar", "Teo", "Violeta", "Wilfredo", "Xinia", "Yariel", "Zoe"]
-    ]
-});
 
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
@@ -649,6 +642,5 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.australianRegionJakarta,
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
-    DesignationSystem.auxilary,
-    DesignationSystem.auxilary2
+    DesignationSystem.auxiliary
 ];
