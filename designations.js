@@ -618,9 +618,21 @@ DesignationSystem.periodicTable = new DesignationSystem({
     ]
 });
 
-DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
-DesignationSystem.periodicTableAnnual.naming.annual = true;
-DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
+DesignationSystem.auxilary = new DesignationSystem({
+    displayName: 'Auxiliary 1'
+    suffix: '',
+    mainLists: [
+        ["Adria","Braylen","aridad","Deshawn","Emery","Foster","Gemma","Heath","Isla","Jacobus","Kenzie","Lucio","Makayla","Nolan","Orlanda","Pax","Ronin","Sophie","Tayshaun","Viviana","Will"]
+    ]
+});
+
+DesignationSystem.auxilary2 = new DesignationSystem({
+    displayName: 'Auxiliary 2'
+    suffix: '',
+    mainLists: [
+        ["Aidan", "Bruna", "Carmelo", "Daniella", "Esteban", "Flor", "Gerardo", "Hedda", "Izzy", "Jacinta", "Kenito", "Luna", "Marina", "Nancy", "Ovidio", "Pia", "Rey", "Skylar", "Teo", "Violeta", "Wilfredo", "Xinia", "Yariel", "Zoe"]
+    ]
+});
 
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
@@ -637,6 +649,6 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.australianRegionJakarta,
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
-    DesignationSystem.periodicTable,
-    DesignationSystem.periodicTableAnnual
+    DesignationSystem.auxilary,
+    DesignationSystem.auxilary2
 ];
