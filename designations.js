@@ -626,7 +626,6 @@ DesignationSystem.auxilary = new DesignationSystem({
     ]
 });
 
-
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
     DesignationSystem.easternPacific,
@@ -642,5 +641,6 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.australianRegionJakarta,
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
+    DesignationSystem.periodicTable,
     DesignationSystem.auxiliary
 ];
