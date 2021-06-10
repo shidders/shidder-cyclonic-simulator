@@ -618,6 +618,7 @@ DesignationSystem.periodicTable = new DesignationSystem({
     ]
 });
 
+<<<<<<< HEAD
 DesignationSystem.auxilary = new DesignationSystem({
     displayName: 'NHC Auxiliary'
     suffix: 'X',
@@ -625,6 +626,11 @@ DesignationSystem.auxilary = new DesignationSystem({
         ["Adria","Aidan","Braylen","Bruna","Caridad","Carmelo","Deshawn","Daniella","Emery","Esteban","Foster","Flor","Gemma","Gerardo","Heath","Hedda","Isla","Izzy","Jacobus","Jacinta","Kenzie","Kenito","Lucio","Luna","Makayla","Marina","Nolan","Nancy","Orlanda","Ovidio","Pax","Pia","Ronin","Rey","Sophie","Skylar","Tayshaun","Teo","Viviana","Violeta","Will""Wilfredo","Xinia","Yariel","Zoe"]
     ]
 });
+=======
+DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
+DesignationSystem.periodicTableAnnual.naming.annual = true;
+DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
+>>>>>>> parent of c84de48... Update designations.js
 
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
@@ -642,5 +648,9 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
     DesignationSystem.periodicTable,
+<<<<<<< HEAD
     DesignationSystem.auxiliary
+=======
+    DesignationSystem.periodicTableAnnual
+>>>>>>> parent of c84de48... Update designations.js
 ];
