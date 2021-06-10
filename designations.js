@@ -648,6 +648,7 @@ DesignationSystem.auxilary2 = new DesignationSystem({
 });
 >>>>>>> parent of 11b3725... Update designations.js
 
+
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
     DesignationSystem.easternPacific,
@@ -664,8 +665,11 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
 <<<<<<< HEAD
+<<<<<<< HEAD
     DesignationSystem.periodicTable,
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 717e865... Update designations.js
     DesignationSystem.auxiliary
 =======
     DesignationSystem.periodicTableAnnual
