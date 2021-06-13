@@ -591,6 +591,14 @@ DesignationSystem.mediterranean = new DesignationSystem({
     ]
 });
 
+DesignationSystem.auxiliary = new DesignationSystem({
+    displayName: 'NHC Auxiliary'
+    suffix: 'X',
+    mainLists: [
+        ["Adria","Aidan","Braylen","Bruna","Caridad","Carmelo","Deshawn","Daniella","Emery","Esteban","Foster","Flor","Gemma","Gerardo","Heath","Hedda","Isla","Izzy","Jacobus","Jacinta","Kenzie","Kenito","Lucio","Luna","Makayla","Marina","Nolan","Nancy","Orlanda","Ovidio","Pax","Pia","Ronin","Rey","Sophie","Skylar","Tayshaun","Teo","Viviana","Violeta","Will""Wilfredo","Xinia","Yariel","Zoe"]
+    ]
+});
+
 DesignationSystem.atlantic1979 = new DesignationSystem({
     displayName: 'Atlantic (1979-1984)',
     suffix: 'L',
@@ -644,6 +652,7 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.mediterranean,
     DesignationSystem.australianRegionJakarta,
     DesignationSystem.australianRegionPortMoresby,
+    DesignationSystem.auxiliary,    
     DesignationSystem.atlantic1979,
     DesignationSystem.periodicTable,
     DesignationSystem.periodicTableAnnual
