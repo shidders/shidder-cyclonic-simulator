@@ -831,14 +831,14 @@ Scale.southwestIndianOcean = new Scale({
 });
 Scale.pressure = new Scale({
     measure: SCALE_MEASURE_INHG,
-    displayName: 'Pressure',
+    displayName: 'Custom',
     colorSchemeDisplayNames: ['Classic'],
     flavorDisplayNames: ['Hurricane'],
-    classifications: [
+    classifications': [
         {
-            threshold: 1014,
-            color: ['rgb(54,141,255)','#368dff'],
-            subtropicalColor: ['rgb(191,250,255)','#bffaff'],
+            threshold: 17,
+            color: ['rgb(191,250,255)','#bffaff'],
+            subtropicalColor: ['rgb(215,191,255)','#d7bfff'],
             symbol: 'I',
             arms: 1,
             stormNom: 'Invest',
@@ -847,22 +847,22 @@ Scale.pressure = new Scale({
             cName: 'Invest'
         },
         {
-            threshold: 1003,
-            color: ['rgb(79,255,202)','#4fffca'],
-            subtropicalColor: ['rgb(138,255,210)','#8affd2'],
+            threshold: 25,
+            color: ['rgb(48,159,255)','#309fff'],
+            subtropicalColor: ['rgb(117,48,255)','#7530ff'],
             symbol: 'D',
             stormNom: 'Depression',
-            subtropicalStormNom: 'Subtropical Medistorm',
-            stat: 'Medistorms',
-            cName: 'Medistorm',
+            subtropicalStormNom: 'Subtropical Depression',
+            stat: 'Depressions',
+            cName: 'Depression',
         },
         {
-            threshold: 98,
-            color: ['rgb(175,255,84)','#afff54'],
-            symbol: 'MC',
-            stormNom: 'Medicane',
-            stat: 'Medicanes',
-            cName: 'Medicane',
+            threshold: 35,
+            color: ['rgb(48,255,51)','#30ff33'],
+            symbol: 'S',
+            stormNom: 'Tropical Storm',
+            stat: 'Tropical Storms',
+            cName: 'Tropical Storm',
         },
         {
             threshold: 158,
