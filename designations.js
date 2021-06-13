@@ -650,9 +650,9 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.southWestIndianOcean,
     DesignationSystem.southAtlantic,
     DesignationSystem.mediterranean,
+    DesignationSystem.auxiliary,  
     DesignationSystem.australianRegionJakarta,
     DesignationSystem.australianRegionPortMoresby,
-    DesignationSystem.auxiliary,    
     DesignationSystem.atlantic1979,
     DesignationSystem.periodicTable,
     DesignationSystem.periodicTableAnnual
