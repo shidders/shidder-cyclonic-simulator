@@ -874,7 +874,7 @@ Scale.custom = new Scale({
         },
         {
             threshold: 65,
-            color: ['rgb(48,255,51)','#30ff33'],
+            color: ['rgb(244,247,45)','#fafc47'],
             symbol: '1',
             stormNom: 'Hurricane',
             stat: 'C1s',
