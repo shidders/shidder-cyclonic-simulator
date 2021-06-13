@@ -838,7 +838,7 @@ Scale.custom = new Scale({
     classifications: [
         {
             threshold: 17,
-            color: ['rgb(191,250,255)','#bffaff'],
+            color: ['rgb(117,255,250)','#75fffa'],
             subtropicalColor: ['rgb(215,191,255)','#d7bfff'],
             symbol: 'I',
             arms: 1,
