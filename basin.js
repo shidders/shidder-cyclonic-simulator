@@ -6,7 +6,7 @@ class Basin{
         this.seasonExpirationTimers = {};
         this.activeSystems = [];
         this.subBasins = {};
-        this.addSubBasin(DEFAULT_MAIN_SUBBASIN,DEFAULT_MAIN_SUBBASIN,DEFAULT_MAIN_SUBBASIN,DEFAULT_MAIN_SUBBASIN
+        this.addSubBasin(DEFAULT_MAIN_SUBBASIN,undefined,undefined,undefined,
             Scale.presetScales[opts.scale || 0].clone().flavor(opts.scaleFlavor || 0).colorScheme(opts.scaleColorScheme || 0),
             DesignationSystem.presetDesignationSystems[opts.designations || 0].clone().setSecondary(false)
         );
