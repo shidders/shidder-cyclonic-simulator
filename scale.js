@@ -830,7 +830,7 @@ Scale.southwestIndianOcean = new Scale({
     ]
 });
 Scale.custom = new Scale({
-    measure: SCALE_MEASURE_ONE_MIN_MPH,
+    measure: SCALE_MEASURE_TEN_MIN_KNOTS,
     displayName: 'Custom',
     colorSchemeDisplayNames: ['Classic'],
     flavorDisplayNames: ['Hurricane'],
@@ -866,13 +866,20 @@ Scale.custom = new Scale({
             cName: 'Tropical Storm',
         },
         {
-            threshold: 158,
+            threshold: 55,
             color: ['rgb(255,190,87)','#ffbe57'],
-            symbol: 'MMC',
-            stormNom: 'Major Medicane',
-            stat: 'Major Medicanes',
-            cName: 'Major Medicane',
-        }
+            symbol: 'S',
+            stormNom: 'Tropical Storm',
+            cName: 'Tropical Storm',
+        },
+        {
+            threshold: 65,
+            color: ['rgb(48,255,51)','#30ff33'],
+            symbol: '1',
+            stormNom: 'Hurricane',
+            stat: 'C1s',
+            cName: 'Hurricane',
+        },
     ]
 });
 Scale.presetScales = [
@@ -883,5 +890,5 @@ Scale.presetScales = [
     Scale.IMD,
     Scale.southwestIndianOcean,
     Scale.medicane,
-    Scale.pressure
+    Scale.custom
 ];
