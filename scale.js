@@ -831,7 +831,7 @@ Scale.southwestIndianOcean = new Scale({
 });
 Scale.custom = new Scale({
     measure: SCALE_MEASURE_TEN_MIN_KNOTS,
-    displayName: 'Custom',
+    displayName: 'F13',
     colorSchemeDisplayNames: ['Classic'],
     flavorDisplayNames: ['Hurricane'],
     namingThreshold: 3,
