@@ -943,6 +943,8 @@ Scale.custom = new Scale({
             stormNom: 'Hypercane',
             stat: 'C5s',
             cName: 'Hypercane',
+         }
+    ]
 });
 Scale.presetScales = [
     Scale.saffirSimpson,
