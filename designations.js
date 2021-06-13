@@ -620,6 +620,7 @@ DesignationSystem.periodicTable = new DesignationSystem({
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 DesignationSystem.auxilary = new DesignationSystem({
 <<<<<<< HEAD
     displayName: 'NHC Auxiliary'
@@ -658,6 +659,11 @@ DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
 DesignationSystem.periodicTableAnnual.naming.annual = true;
 DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
 >>>>>>> parent of 028b865... Merge branch 'master' of https://github.com/0s2/super-cyclonic-simulator
+=======
+DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
+DesignationSystem.periodicTableAnnual.naming.annual = true;
+DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
+>>>>>>> parent of 028b865... Merge branch 'master' of https://github.com/0s2/super-cyclonic-simulator
 
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
@@ -679,6 +685,7 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.periodicTable,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 717e865... Update designations.js
     DesignationSystem.auxiliary
@@ -689,6 +696,9 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.auxilary,
     DesignationSystem.auxilary2
 >>>>>>> parent of 11b3725... Update designations.js
+=======
+    DesignationSystem.periodicTableAnnual
+>>>>>>> parent of 028b865... Merge branch 'master' of https://github.com/0s2/super-cyclonic-simulator
 =======
     DesignationSystem.periodicTableAnnual
 >>>>>>> parent of 028b865... Merge branch 'master' of https://github.com/0s2/super-cyclonic-simulator
