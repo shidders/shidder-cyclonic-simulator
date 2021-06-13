@@ -829,12 +829,13 @@ Scale.southwestIndianOcean = new Scale({
         }
     ]
 });
-Scale.pressure = new Scale({
-    measure: SCALE_MEASURE_INHG,
+Scale.southwestIndianOcean = new Scale({
+    measure: SCALE_MEASURE_ONE_MIN_MPH,
     displayName: 'Custom',
     colorSchemeDisplayNames: ['Classic'],
     flavorDisplayNames: ['Hurricane'],
-    classifications': [
+    namingThreshold: 3,
+    classifications: [
         {
             threshold: 17,
             color: ['rgb(191,250,255)','#bffaff'],
