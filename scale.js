@@ -834,7 +834,7 @@ Scale.custom = new Scale({
     displayName: 'F13',
     colorSchemeDisplayNames: ['Classic'],
     flavorDisplayNames: ['Hurricane'],
-    namingThreshold: 3,
+    namingThreshold: 2,
     classifications: [
         {
             threshold: 17,
