@@ -829,7 +829,7 @@ Scale.southwestIndianOcean = new Scale({
         }
     ]
 });
-Scale.southwestIndianOcean = new Scale({
+Scale.custom = new Scale({
     measure: SCALE_MEASURE_ONE_MIN_MPH,
     displayName: 'Custom',
     colorSchemeDisplayNames: ['Classic'],
