@@ -829,7 +829,7 @@ Scale.southwestIndianOcean = new Scale({
         }
     ]
 });
-Scale. = new Scale({
+Scale.pressure = new Scale({
     measure: SCALE_MEASURE_MILLIBARS,
     displayName: 'Medicane',
     colorSchemeDisplayNames: ['Classic'],
@@ -839,10 +839,10 @@ Scale. = new Scale({
             threshold: 1020,
             color: ['rgb(54,141,255)','#368dff'],
             subtropicalColor: ['rgb(112,81,237)','#7051ed'],
-            symbol: 'MD',
+            symbol: 'I',
             arms: 0,
-            stormNom: 'Tropical Medipression',
-            subtropicalStormNom: 'Subtropical Medipression',
+            stormNom: 'Invest',
+            subtropicalStormNom: 'Subtropical Invest',
             stat: 'Invests',
             cName: 'Invest'
         },
@@ -881,5 +881,6 @@ Scale.presetScales = [
     Scale.typhoonCommittee,
     Scale.IMD,
     Scale.southwestIndianOcean,
-    Scale.medicane
+    Scale.medicane,
+    Scale.pressure
 ];
