@@ -592,7 +592,7 @@ DesignationSystem.mediterranean = new DesignationSystem({
 });
 
 DesignationSystem.auxiliary = new DesignationSystem({
-    displayName: 'NHC Auxiliary'
+    displayName: 'Auxiliary',
     suffix: 'X',
     mainLists: [
         ["Adria","Aidan","Braylen","Bruna","Caridad","Carmelo","Deshawn","Daniella","Emery","Esteban","Foster","Flor","Gemma","Gerardo","Heath","Hedda","Isla","Izzy","Jacobus","Jacinta","Kenzie","Kenito","Lucio","Luna","Makayla","Marina","Nolan","Nancy","Orlanda","Ovidio","Pax","Pia","Ronin","Rey","Sophie","Skylar","Tayshaun","Teo","Viviana","Violeta","Will""Wilfredo","Xinia","Yariel","Zoe"]
