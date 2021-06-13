@@ -618,52 +618,17 @@ DesignationSystem.periodicTable = new DesignationSystem({
     ]
 });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-DesignationSystem.auxilary = new DesignationSystem({
-<<<<<<< HEAD
-    displayName: 'NHC Auxiliary'
-<<<<<<< HEAD
-    suffix: 'X',
-=======
-    displayName: 'Auxiliary 1'
-    suffix: '',
->>>>>>> parent of 11b3725... Update designations.js
-=======
-    suffix: '',
->>>>>>> parent of 5599984... Update designations.js
+DesignationSystem.periodicTable = new DesignationSystem({
+    displayName: 'Periodic Table',
+    suffix: DEPRESSION_LETTER,
     mainLists: [
-        ["Adria","Braylen","aridad","Deshawn","Emery","Foster","Gemma","Heath","Isla","Jacobus","Kenzie","Lucio","Makayla","Nolan","Orlanda","Pax","Ronin","Sophie","Tayshaun","Viviana","Will"]
+        ["Hydrogen","Helium","Lithium","Beryllium","Boron","Carbon","Nitrogen","Oxygen","Fluorine","Neon","Sodium","Magnesium","Aluminium","Silicon","Phosphorus","Sulfur","Chlorine","Argon","Potassium","Calcium","Scandium","Titanium","Vanadium","Chromium","Manganese","Iron","Cobalt","Nickel","Copper","Zinc","Gallium","Germanium","Arsenic","Selenium","Bromine","Krypton","Rubidium","Strontium","Yttrium","Zirconium","Niobium","Molybdenum","Technetium","Ruthenium","Rhodium","Palladium","Silver","Cadmium","Indium","Tin","Antimony","Tellurium","Iodine","Xenon","Caesium","Barium","Lanthanum","Cerium","Praseodymium","Neodymium","Promethium","Samarium","Europium","Gadolinium","Terbium","Dysprosium","Holmium","Erbium","Thulium","Ytterbium","Lutetium","Hafnium","Tantalum","Tungsten","Rhenium","Osmium","Iridium","Platinum","Gold","Mercury","Thallium","Lead","Bismuth","Polonium","Astatine","Radon","Francium","Radium","Actinium","Thorium","Protactinium","Uranium","Neptunium","Plutonium","Americium","Curium","Berkelium","Californium","Einsteinium","Fermium","Mendelevium","Nobelium","Lawrencium","Rutherfordium","Dubnium","Seaborgium","Bohrium","Hassium","Meitnerium","Darmstadtium","Roentgenium","Copernicium","Nihonium","Flerovium","Moscovium","Livermorium","Tennessine","Oganesson"]
     ]
 });
-<<<<<<< HEAD
-=======
-DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
-DesignationSystem.periodicTableAnnual.naming.annual = true;
-DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
->>>>>>> parent of c84de48... Update designations.js
-=======
 
-DesignationSystem.auxilary2 = new DesignationSystem({
-    displayName: 'Auxiliary 2'
-    suffix: '',
-    mainLists: [
-        ["Aidan", "Bruna", "Carmelo", "Daniella", "Esteban", "Flor", "Gerardo", "Hedda", "Izzy", "Jacinta", "Kenito", "Luna", "Marina", "Nancy", "Ovidio", "Pia", "Rey", "Skylar", "Teo", "Violeta", "Wilfredo", "Xinia", "Yariel", "Zoe"]
-    ]
-});
->>>>>>> parent of 11b3725... Update designations.js
-
-=======
 DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
 DesignationSystem.periodicTableAnnual.naming.annual = true;
 DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
->>>>>>> parent of 028b865... Merge branch 'master' of https://github.com/0s2/super-cyclonic-simulator
-=======
-DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
-DesignationSystem.periodicTableAnnual.naming.annual = true;
-DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
->>>>>>> parent of 028b865... Merge branch 'master' of https://github.com/0s2/super-cyclonic-simulator
 
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
@@ -680,26 +645,6 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.australianRegionJakarta,
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
-<<<<<<< HEAD
-<<<<<<< HEAD
     DesignationSystem.periodicTable,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 717e865... Update designations.js
-    DesignationSystem.auxiliary
-=======
     DesignationSystem.periodicTableAnnual
->>>>>>> parent of c84de48... Update designations.js
-=======
-    DesignationSystem.auxilary,
-    DesignationSystem.auxilary2
->>>>>>> parent of 11b3725... Update designations.js
-=======
-    DesignationSystem.periodicTableAnnual
->>>>>>> parent of 028b865... Merge branch 'master' of https://github.com/0s2/super-cyclonic-simulator
-=======
-    DesignationSystem.periodicTableAnnual
->>>>>>> parent of 028b865... Merge branch 'master' of https://github.com/0s2/super-cyclonic-simulator
 ];
