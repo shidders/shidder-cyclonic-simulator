@@ -830,15 +830,15 @@ Scale.southwestIndianOcean = new Scale({
     ]
 });
 Scale.pressure = new Scale({
-    measure: SCALE_MEASURE_MILLIBARS,
+    measure: SCALE_MEASURE_INHG,
     displayName: 'Pressure',
     colorSchemeDisplayNames: ['Classic'],
     flavorDisplayNames: ['Hurricane'],
     classifications: [
         {
-            threshold: 1020,
+            threshold: 1014,
             color: ['rgb(54,141,255)','#368dff'],
-            subtropicalColor: ['rgb(112,81,237)','#7051ed'],
+            subtropicalColor: ['rgb(191,250,255)','#bffaff'],
             symbol: 'I',
             arms: 1,
             stormNom: 'Invest',
@@ -847,11 +847,11 @@ Scale.pressure = new Scale({
             cName: 'Invest'
         },
         {
-            threshold: 60,
+            threshold: 1003,
             color: ['rgb(79,255,202)','#4fffca'],
             subtropicalColor: ['rgb(138,255,210)','#8affd2'],
-            symbol: 'MS',
-            stormNom: 'Tropical Medistorm',
+            symbol: 'D',
+            stormNom: 'Depression',
             subtropicalStormNom: 'Subtropical Medistorm',
             stat: 'Medistorms',
             cName: 'Medistorm',
