@@ -925,7 +925,6 @@ Scale.custom = new Scale({
             color: ['rgb(247,82,104)','#f75268'],
             symbol: '5',
             stormNom: 'Super Hurricane',
-            stat: 'C5s',
             cName: 'Super Hurricane',
         },
         { 
@@ -933,7 +932,6 @@ Scale.custom = new Scale({
             color: ['rgb(247,82,104)','#f75268'],
             symbol: '5',
             stormNom: 'Super Hurricane',
-            stat: 'C5s',
             cName: 'Super Hurricane',
         },
         { 
@@ -941,7 +939,7 @@ Scale.custom = new Scale({
             color: ['rgb(255,245,246)','#fff5f6'],
             symbol: '5',
             stormNom: 'Hypercane',
-            stat: 'C5s',
+            stat: 'Hypercanes',
             cName: 'Hypercane',
          }
     ]
