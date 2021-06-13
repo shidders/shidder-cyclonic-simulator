@@ -747,6 +747,133 @@ Scale.medicane = new Scale({
         }
     ]
 });
+Scale.southwestIndianOcean = new Scale({
+    measure: SCALE_MEASURE_TEN_MIN_KNOTS,
+    displayName: 'Southwest Indian Ocean',
+    colorSchemeDisplayNames: ['Classic','Wiki'],
+    flavorDisplayNames: ['Cyclone'],
+    namingThreshold: 2,
+    classifications: [
+        {
+            threshold: 0,
+            color: ['rgb(75,75,245)','#80ccff'],
+            subtropicalColor: ['rgb(95,95,235)','#80ccff'],
+            symbol: 'Di',
+            arms: 0,
+            stormNom: 'Tropical Disturbance',
+            subtropicalStormNom: 'Subtropical Disturbance',
+            stat: 'Disturbances',
+            cName: 'Disturbance'
+        },
+        {
+            threshold: 28,
+            color: ['rgb(20,20,230)','#5ebaff'],
+            subtropicalColor: ['rgb(60,60,220)','#5ebaff'],
+            symbol: 'D',
+            arms: 0,
+            stormNom: 'Tropical Depression',
+            stat: 'Depressions',
+            cName: 'Depression'
+        },
+        {
+            threshold: 34,
+            color: ['rgb(20,230,20)','#00faf4'],
+            subtropicalColor: ['rgb(60,220,60)','#00faf4'],
+            symbol: 'MTS',
+            subtropicalSymbol: 'MSS',
+            stormNom: 'Moderate Tropical Storm',
+            subtropicalStormNom: 'Moderate Subtropical Storm',
+            stat: 'Named Storms',
+            cName: 'Moderate Tropical Storm'
+        },
+        {
+            threshold: 48,
+            color: ['rgb(180,230,20)','#ccffff'],
+            subtropicalColor: ['rgb(180,220,85)','#ccffff'],
+            symbol: 'STS',
+            subtropicalSymbol: 'SSS',
+            stormNom: 'Severe Tropical Storm',
+            subtropicalStormNom: 'Severe Subtropical Storm',
+            stat: 'Severe',
+            cName: 'Severe Tropical Storm'
+        },
+        {
+            threshold: 64,
+            color: ['rgb(230,230,20)','#ffffcc'],
+            symbol: 'TC',
+            subtropicalSymbol: 'SC',
+            stormNom: 'Tropical Cyclone',
+            subtropicalStormNom: 'Subtropical Cyclone',
+            stat: 'Cyclones',
+            cName: 'Tropical Cyclone'
+        },
+        {
+            threshold: 90,
+            color: ['rgb(240,20,20)','#ffc140'],
+            symbol: 'ITC',
+            subtropicalSymbol: 'ISC',
+            stormNom: 'Intense Tropical Cyclone',
+            subtropicalStormNom: 'Intense Subtropical Cyclone',
+            stat: 'Intense',
+            cName: 'Intense Tropical Cyclone'
+        },
+        {
+            threshold: 115,
+            color: ['rgb(250,140,250)','#ff6060'],
+            symbol: 'VITC',
+            subtropicalSymbol: 'VISC',
+            stormNom: 'Very Intense Tropical Cyclone',
+            subtropicalStormNom: 'Very Intense Subtropical Cyclone',
+            stat: 'Very Intense',
+            cName: 'Very Intense Tropical Cyclone'
+        }
+    ]
+});
+Scale. = new Scale({
+    measure: SCALE_MEASURE_MILLIBARS,
+    displayName: 'Medicane',
+    colorSchemeDisplayNames: ['Classic'],
+    flavorDisplayNames: ['Hurricane'],
+    classifications: [
+        {
+            threshold: 1020,
+            color: ['rgb(54,141,255)','#368dff'],
+            subtropicalColor: ['rgb(112,81,237)','#7051ed'],
+            symbol: 'MD',
+            arms: 0,
+            stormNom: 'Tropical Medipression',
+            subtropicalStormNom: 'Subtropical Medipression',
+            stat: 'Invests',
+            cName: 'Invest'
+        },
+        {
+            threshold: 60,
+            color: ['rgb(79,255,202)','#4fffca'],
+            subtropicalColor: ['rgb(138,255,210)','#8affd2'],
+            symbol: 'MS',
+            stormNom: 'Tropical Medistorm',
+            subtropicalStormNom: 'Subtropical Medistorm',
+            stat: 'Medistorms',
+            cName: 'Medistorm',
+        },
+        {
+            threshold: 98,
+            color: ['rgb(175,255,84)','#afff54'],
+            symbol: 'MC',
+            stormNom: 'Medicane',
+            stat: 'Medicanes',
+            cName: 'Medicane',
+        },
+        {
+            threshold: 158,
+            color: ['rgb(255,190,87)','#ffbe57'],
+            symbol: 'MMC',
+            stormNom: 'Major Medicane',
+            stat: 'Major Medicanes',
+            cName: 'Major Medicane',
+        }
+    ]
+});
 Scale.presetScales = [
     Scale.saffirSimpson,
     Scale.extendedSaffirSimpson,
