@@ -711,10 +711,10 @@ ENV_DEFS[SIM_MODE_HYPER].SST = {
 };
 ENV_DEFS[SIM_MODE_WILD].SST = {
     modifiers: {
-        offSeasonPolarTemp: 999950,
-        peakSeasonPolarTemp: 999975,
-        offSeasonTropicsTemp: 1000000,
-        peakSeasonTropicsTemp: 1000025
+        offSeasonPolarTemp: 999999950,
+        peakSeasonPolarTemp: 999999975,
+        offSeasonTropicsTemp: 1000000000,
+        peakSeasonTropicsTemp: 1000000025
     }
 };
 ENV_DEFS[SIM_MODE_MEGABLOBS].SST = {
