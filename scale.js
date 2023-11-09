@@ -418,17 +418,18 @@ Scale.extendedSaffirSimpson = new Scale({
         },
         {
             threshold: 1002,
-            color: ['rgb(0,0,0)','#000000'],
+            color: ['rgb(70,57,88)','#463958'],
             symbol: '?',
-            stormNom: 'Universal Vortex',
-            cName: 'Universal Vortex'
+            stormNom: 'Supermassive Black Hole',
+            cName: 'Supermassive Black Hole'
         },
         {
             threshold: 2004,
-            color: ['rgb(255,255,255)','#FFFFFF'],
+            color: ['rgb(0,0,0)','#000000'],
             symbol: '!',
-            stormNom: 'Multiversal Vortex',
-            cName: 'Multiversal Vortex'
+            stormNom: 'Ultramassive Black Hole',
+            stat: 'Ultramassive Black Holes',
+            cName: 'Ultramassive Black Hole'
         }
     ]
 });
