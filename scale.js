@@ -422,6 +422,13 @@ Scale.extendedSaffirSimpson = new Scale({
             symbol: '?',
             stormNom: 'Universal Vortex',
             cName: 'Universal Vortex'
+        },
+        {
+            threshold: 2004,
+            color: ['rgb(255,255,255)','#FFFFFF'],
+            symbol: '!',
+            stormNom: 'Multiversal Vortex',
+            cName: 'Multiversal Vortex'
         }
     ]
 });
