@@ -419,14 +419,14 @@ Scale.extendedSaffirSimpson = new Scale({
         {
             threshold: 1002,
             color: ['rgb(27,27,27)','#1b1b1b'],
-            symbol: '?',
+            symbol: 'SBH',
             stormNom: 'Supermassive Black Hole',
             cName: 'Supermassive Black Hole'
         },
         {
             threshold: 2004,
             color: ['rgb(0,0,0)','#000000'],
-            symbol: '!',
+            symbol: 'UBH',
             stormNom: 'Ultramassive Black Hole',
             stat: 'Ultramassive Black Holes',
             cName: 'Ultramassive Black Hole'
