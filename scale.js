@@ -463,8 +463,8 @@ Scale.extendedSaffirSimpson = new Scale({
             color: ['rgb(62,34,0)','#3E2200'],
             symbol: 'SHART',
             arms: 10,
-            stormNom: 'Shartticane',
-            cName: 'Shartticane'
+            stormNom: 'Sharticane',
+            cName: 'Sharticane'
         }
     ]
 });
