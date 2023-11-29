@@ -412,6 +412,7 @@ Scale.extendedSaffirSimpson = new Scale({
             threshold: 657,
             color: ['rgb(54,54,54)','#363636'],
             symbol: 'BH',
+            arms: 4,
             stormNom: 'Black Hole',
             stat: 'Black Holes',
             cName: 'Black Hole'
@@ -420,6 +421,7 @@ Scale.extendedSaffirSimpson = new Scale({
             threshold: 1002,
             color: ['rgb(27,27,27)','#1b1b1b'],
             symbol: 'SBH',
+            arms: 4,
             stormNom: 'Supermassive Black Hole',
             cName: 'Supermassive Black Hole'
         },
@@ -427,17 +429,42 @@ Scale.extendedSaffirSimpson = new Scale({
             threshold: 2004,
             color: ['rgb(0,0,0)','#000000'],
             symbol: 'UBH',
+            arms: 4,
             stormNom: 'Ultramassive Black Hole',
-            stat: 'Ultramassive Black Holes',
             cName: 'Ultramassive Black Hole'
         },
         {
             threshold: 4008,
+            color: ['rgb(125,249,255)','#7DF9FF'],
+            symbol: 'Q',
+            arms: 6,
+            stormNom: 'Quasar',
+            stat: 'Quasars',
+            cName: 'Quasar'
+        },
+        {
+            threshold: 8016,
+            color: ['rgb(180,252,255)','#B4FCFF'],
+            symbol: 'B',
+            arms: 6,
+            stormNom: 'Blazar',
+            cName: 'Blazar'
+        },
+        {
+            threshold: 16032,
             color: ['rgb(123,63,0)','#7B3F00'],
             symbol: 'SHIT',
-            arms: 6,
+            arms: 8,
             stormNom: 'Shitticane',
             cName: 'Shitticane'
+        },
+        {
+            threshold: 32064,
+            color: ['rgb(128,128,0)','#808000'],
+            symbol: 'DIARRHEA',
+            arms: 8,
+            stormNom: 'Diarrheacane',
+            cName: 'Diarrheacane'
         }
     ]
 });
