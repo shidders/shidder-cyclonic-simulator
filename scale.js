@@ -461,10 +461,10 @@ Scale.extendedSaffirSimpson = new Scale({
         {
             threshold: 32064,
             color: ['rgb(128,128,0)','#808000'],
-            symbol: 'DIARRHEA',
-            arms: 8,
-            stormNom: 'Diarrheacane',
-            cName: 'Diarrheacane'
+            symbol: 'SHART',
+            arms: 10,
+            stormNom: 'Shartticane',
+            cName: 'Shartticane'
         }
     ]
 });
