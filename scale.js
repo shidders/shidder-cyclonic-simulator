@@ -460,7 +460,7 @@ Scale.extendedSaffirSimpson = new Scale({
         },
         {
             threshold: 32064,
-            color: ['rgb(128,128,0)','#808000'],
+            color: ['rgb(62,34,0)','#3E2200'],
             symbol: 'SHART',
             arms: 10,
             stormNom: 'Shartticane',
