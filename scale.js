@@ -464,6 +464,7 @@ Scale.extendedSaffirSimpson = new Scale({
             symbol: 'SHART',
             arms: 10,
             stormNom: 'Sharticane',
+            stat: 'Sharts',
             cName: 'Sharticane'
         }
     ]
