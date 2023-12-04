@@ -446,7 +446,8 @@ DesignationSystem.easternPacific = new DesignationSystem({
     ],
     auxLists: [
         ['Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Kappa','Lambda','Mu','Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega'],
-        ['Alef','Bet','Gimel','Dalet','He','Vav','Zayin','Het','Tet','Yod','Kaf','Lamed','Mem','Nun','Samekh','Ayin','Pe','Tsadi','Qof','Resh','Shin','Tav']
+        ['Alef','Bet','Gimel','Dalet','He','Vav','Zayin','Het','Tet','Yod','Kaf','Lamed','Mem','Nun','Samekh','Ayin','Pe','Tsadi','Qof','Resh','Shin','Tav'],
+        ['Alp','Bayt','Gaml','Dag','Hillul','Waw','Zayt','Diqq','Hasr','Hayt','Tab','Yad','Kap','Lamd','Maym','Nahas','Samk','Ayn','Ga','Pit','Saday','Qoba','Ras','Sims','Sadeh','Tann','Taw']        
     ]
 });
 
