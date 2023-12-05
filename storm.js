@@ -905,6 +905,7 @@ class ActiveSystem extends StormData{
         //         }while(tooClose);
         //     }
         //     let p = spawn ?
+        //         sType==="z" ? -25300 :
         //         sType==="x" ? 1005 :
         //         sType==="l" ? 1015 :
         //         sType==="d" ? 1005 :
@@ -922,6 +923,7 @@ class ActiveSystem extends StormData{
         //         sType==='y' ? 690 : 1000 :
         //     random(1000,1020);
         //     let w = spawn ?
+        //         sType==="z" ? 32200 :
         //         sType==="x" ? 15 :
         //         sType==="l" ? 15 :
         //         sType==="d" ? 25 :
