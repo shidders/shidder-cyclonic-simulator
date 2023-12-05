@@ -49,29 +49,7 @@ class Designation{
                 'Phi':'\u03C6',
                 'Chi':'\u03C7',
                 'Psi':'\u03C8',
-                'Omega':'\u03C9',
-                'Alef':'\u05D0',
-                'Bet':'\u05D1',
-                'Gimel':'\u05D2',
-                'Dalet':'\u05D3',
-                'He':'\05D4',
-                'Vav':'\u05D5',
-                'Zayin':'\u05D6',
-                'Het':'\u05D7',
-                'Tet':'\u05D8',
-                'Yod':'\u05D9',
-                'Kaf':'\u05DB',
-                'Lamed':'\u05DC',
-                'Mem':'\u05DE',
-                'Nun':'\u05E0',
-                'Samekh':'\u05E1',
-                'Ayin':'\u05E2',
-                'Pe':'\u05E4',
-                'Tsadi':'\u05E6',
-                'Qof':'\u05E7',
-                'Resh':'\u05E8',
-                'Shin':'\u05E9',
-                'Tav':'\u05EA'
+                'Omega':'\u03C9'
             })[this.value] || this.value.slice(0,1);
         }else return this.num + '';
     }
