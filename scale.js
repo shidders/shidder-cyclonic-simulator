@@ -987,6 +987,116 @@ Scale.custom = new Scale({
             cName: 'Hypercane',
          }
     ]
+ });
+Scale.stracking = new Scale({
+    displayName: 'Storm Tracking',
+    colorSchemeDisplayNames: ['Classic'],
+    flavorDisplayNames: ['Hurricane'],
+    namingThreshold: 2,
+    classifications: [
+        {
+            threshold: 17,
+            color: ['rgb(180,95,6)','#b45f06'],
+            symbol: 'BUTT',
+            arms: 7,
+            stormNom: 'Buttcane',
+            stat: 'Buttcanes',
+            cName: 'Buttcane'
+        },
+        {
+            threshold: 25,
+            color: ['rgb(48,159,255)','#309fff'],
+            symbol: 'D',
+            stormNom: 'Depression',
+            stat: 'Depressions',
+            cName: 'Depression',
+        },
+        {
+            threshold: 35,
+            color: ['rgb(48,255,51)','#30ff33'],
+            symbol: 'S',
+            stormNom: 'Tropical Storm',
+            stat: 'Tropical Storms',
+            cName: 'Tropical Storm',
+        },
+        {
+            threshold: 55,
+            color: ['rgb(168, 240, 34)','#a8f022'],
+            symbol: 'S',
+            stormNom: 'Tropical Storm',
+            cName: 'Tropical Storm',
+        },
+        {
+            threshold: 65,
+            color: ['rgb(244,247,45)','#fafc47'],
+            symbol: '1',
+            stormNom: 'Hurricane',
+            stat: 'C1s',
+            cName: 'Hurricane',
+        },
+        {
+            threshold: 85,
+            color: ['rgb(240,206,34)','#f0ce22'],
+            symbol: '2',
+            stormNom: 'Hurricane',
+            stat: 'C2s',
+            cName: 'Hurricane',
+        },
+        {
+            threshold: 100,
+            color: ['rgb(242,146,36)','#f29224'],
+            symbol: '3',
+            stormNom: 'Major Hurricane',
+            stat: 'C3s',
+            cName: 'Major Hurricane',
+        },
+        {
+            threshold: 115,
+            color: ['rgb(227,86,25)','#e35619'],
+            symbol: '4',
+            stormNom: 'Major Hurricane',
+            stat: 'C4s',
+            cName: 'Major Hurricane',
+        },
+        {
+            threshold: 130,
+            color: ['rgb(227,42,25)','#e32a19'],
+            symbol: '4',
+            stormNom: 'Major Hurricane',
+            stat: 'C4s',
+            cName: 'Major Hurricane',
+        },
+        {
+            threshold: 140,
+            color: ['rgb(227,25,52)','#e31934'],
+            symbol: '5',
+            stormNom: 'Super Hurricane',
+            stat: 'C5s',
+            cName: 'Super Hurricane',
+        },
+        {
+            threshold: 160,
+            color: ['rgb(247,82,104)','#f75268'],
+            symbol: '5',
+            stormNom: 'Super Hurricane',
+            cName: 'Super Hurricane',
+        },
+        { 
+            threshold: 180,
+            color: ['rgb(247,82,104)','#f75268'],
+            symbol: '5',
+            stormNom: 'Super Hurricane',
+            cName: 'Super Hurricane',
+        },
+        { 
+            threshold: 200,
+            color: ['rgb(255,245,246)','#fff5f6'],
+            symbol: '5',
+            stormNom: 'Hypercane',
+            stat: 'Hypercanes',
+            cName: 'Hypercane',
+         }
+    ]
 });
 Scale.presetScales = [
     Scale.saffirSimpson,
@@ -997,4 +1107,5 @@ Scale.presetScales = [
     Scale.southwestIndianOcean,
     Scale.medicane,
     Scale.custom
+    Scale.strack
 ];
