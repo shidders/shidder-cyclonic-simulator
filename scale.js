@@ -997,5 +997,4 @@ Scale.presetScales = [
     Scale.southwestIndianOcean,
     Scale.medicane,
     Scale.custom
-    Scale.strack
 ];
